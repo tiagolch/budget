@@ -1,0 +1,9 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+
+{% for revenue in object_list  %}
+    {{ revenue }} - {{ revenue.value}} <br>
+{% endfor %}
+
+{% endblock content %}

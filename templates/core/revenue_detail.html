@@ -1,0 +1,9 @@
+{% extends 'core/base.html' %}
+
+{% block content %}
+
+{% if revenue %}
+    {{ revenue.name}} {{ revenue.description}} {{ revenue.value}}
+{% endif %}
+
+{% endblock content %}
